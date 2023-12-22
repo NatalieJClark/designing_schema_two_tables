@@ -44,15 +44,15 @@ Here's how to run this project:
 ; git clone https://github.com/NatalieJClark/student-directory-two-tables.git YOUR_PROJECT_NAME
 
 # Create the database
-createdb student_directory;
+; createdb student_directory;
 
 # Create the tables by running the SQL table file with psql.
-psql -h 127.0.0.1 student_directory_2 < students_directory_2.sql
+; psql -h 127.0.0.1 student_directory_2 < students_directory_2.sql
 
 # Navigate to the student_directory database in psql
-psql -h 127.0.0.1 student_directory_2
+; psql -h 127.0.0.1 student_directory_2
 
 # View the created tables with psql
-SELECT * FROM students;
-SELECT * FROM cohorts;
+; SELECT * FROM students;
+; SELECT * FROM cohorts;
 ```
