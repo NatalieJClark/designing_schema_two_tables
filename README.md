@@ -1,4 +1,4 @@
-# Student Directory Table
+# Student Directory Two Tables
 
 ## Introduction
 - This is a simple exercise in Makers Module 3 - Databases
