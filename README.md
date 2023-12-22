@@ -30,6 +30,13 @@ $ brew install postgresql@15
 # Make sure the installation directory is on your PATH environment variable
 # Run this line from the Homebrew output
 echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
+
+# Start a new terminal session
+# Run this to start the postgresql software in the background.
+$ brew services start postgresql@15
+
+# You should get the following output:
+==> Successfully started `postgresql@15` (label: homebrew.mxcl.postgresql@15)
 ```
 Here's how to run this project:
 ```shell
