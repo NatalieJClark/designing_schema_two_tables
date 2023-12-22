@@ -130,5 +130,5 @@ CREATE TABLE students (
 ## 6. Create the tables
 
 ```bash
-psql -h 127.0.0.1 student_directory_2 < albums_table.sql
+psql -h 127.0.0.1 student_directory_2 < student_directory_2.sql
 ```
