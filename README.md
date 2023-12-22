@@ -28,6 +28,7 @@ This project was made with postgreSQL database software. Here's how to install i
 $ brew install postgresql@15
 
 # Make sure the installation directory is on your PATH environment variable
+# Run this line from the Homebrew output
 echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
 ```
 Here's how to run this project:
@@ -44,7 +45,7 @@ psql -h 127.0.0.1 student_directory_2 < students_directory_2.sql
 # Navigate to the student_directory database in psql
 psql -h 127.0.0.1 student_directory_2
 
-# View the created tables
+# View the created tables with psql
 SELECT * FROM students;
 SELECT * FROM cohorts;
 ```
