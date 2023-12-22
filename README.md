@@ -6,7 +6,8 @@
 - `student_directory_two_table_recipe.md` documents my design of the cohorts and students tables
   
 ## Objectives
-- [x] Design a single table schema from these user stories.
+- [x] Learn to design and create a schema with two tables and a foreign key.
+- [x] Design a two table schema from these user stories.
   - [x] As a coach  
         So I can get to know all students  
         I want to see a list of students' names.
